@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти</title>
+  <link rel="stylesheet" href="css/contact.css">
+  <style>
+    h1 {
+      text-align: center;
+      font-family: "Nunito-sans", Helvetica, sans-serif;
+      margin-bottom: 20px;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    div {
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+      font-family: "Nunito-sans", Helvetica, sans-serif;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body class="contact-background">
+  <h1>
+    Свържете се с нас
+  </h1>
+  <h3>
+    Попълнете формуляра по-долу, за да се свържете с някой от нашите екипи. Ще се опитаме да ви отговорим в рамките на
+    48 часа. Ако не ви отговорим в този срок, моля, попълнете формуляра отново.
+  </h3>
+  <form action="common/submit.php" method="POST">
+    <div class="fs-field">
+      <label class="fs-label" for="name">Име</label>
+      <input class="fs-input" id="name" name="name" required />
+    </div>
+    <div class="fs-field">
+      <label class="fs-label" for="email">Email </label>
+      <input class="fs-input" id="email" name="email" required />
+    </div>
+    <div class="fs-field">
+      <label class="fs-label" for="number">Телефонен номер</label>
+      <input class="fs-input" id="number" name="number" />
+    </div>
+    <div class="fs-field">
+      <label class="fs-label" for="message">Запитване</label>
+      <textarea class="fs-textarea" id="message" name="message" required></textarea>
+    </div>
+    <div class="fs-button-group">
+      <button class="fs-button" type="submit">Подай</button>
+
+    </div>
+    <input type = "number" id = "contactId" placeholder="Въведи ID" class = "form-control mb-2" />
+    <button type = "button" class = "btn btn-secondary" id = "getContact">
+    </button>
+  </form>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+
+</body>
+
+</html>

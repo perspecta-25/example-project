@@ -1,0 +1,8 @@
+.fon {
+    background-color: cyan;
+}
+
+.bg-custom-image {
+    background-image: url('/assets/cover.png');
+    background-size: cover;
+}

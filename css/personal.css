@@ -1,0 +1,15 @@
+.kolichka a{
+    text-decoration: none;
+    color: black;
+}
+
+.kolichka:hover,
+.kolichka:hover i,
+.kolichka:hover a {
+    color: white !important;
+}
+
+.kolichka:hover {
+    background-color: #343a40;
+    border-color: #343a40;
+}
