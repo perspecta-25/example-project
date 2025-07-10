@@ -35,7 +35,11 @@ let products = [
         price: "40",
         imgName: "lila"
     },
-
+    {
+        name: "Дракончето Тери",
+        price: "70",
+        imgName: "drgn"
+    }
 ];
 
 $(document).ready(function(){
