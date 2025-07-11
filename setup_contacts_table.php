@@ -9,7 +9,7 @@ $user = 'example-project_u';
 $pass = 'kmMKkhXvH8TuMI5';
 
 // Connect to MySQL
-$conn = new mysqli($host, $user, $pass, $db);
+$conn = new mysqli($host, $user, $pass, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
