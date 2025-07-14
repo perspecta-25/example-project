@@ -3,6 +3,16 @@
     color: black;
 }
 
+.kolichka{
+    text-decoration: none;
+    color: black;
+}
+
+.kolichka a i{
+    text-decoration: none;
+    color: black;
+}
+
 .kolichka:hover,
 .kolichka:hover i,
 .kolichka:hover a {
